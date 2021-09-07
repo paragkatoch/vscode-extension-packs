@@ -1,0 +1,26 @@
+{
+    "name": "frontend-extension-pack",
+    "displayName": "2 Frontend pack",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "PreIdiot",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/preIdiot/vscode-frontend-dev-Extension-Pack"
+    },
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+       "formulahendry.auto-rename-tag",
+       "dsznajder.es7-react-js-snippets",
+       "xabikos.javascriptsnippets",
+       "glenn2223.live-sass",
+       "ritwickdey.liveserver"
+    ]
+}
+
+ 

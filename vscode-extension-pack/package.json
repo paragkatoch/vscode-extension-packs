@@ -1,0 +1,34 @@
+{
+	"name": "vscode-extension-pack",
+	"displayName": "1 Vscode pack",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/preIdiot/vscode--Extesnion-Pack_for_vscode.git"
+	},
+	"publisher": "preIdiot",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"wesbos.theme-cobalt2",
+		"vscode-icons-team.vscode-icons",
+		"alefragnani.project-manager",
+		"patbenatar.advanced-new-file",
+		"sleistner.vscode-fileutils",
+		"esbenp.prettier-vscode",
+		"oderwat.indent-rainbow",
+		"aaron-bond.better-comments",
+		"streetsidesoftware.code-spell-checker",
+		"dbaeumer.vscode-eslint",
+		"mhutchie.git-graph",
+		"eamodio.gitlens",
+		"gruntfuggly.todo-tree",
+		"wakatime.vscode-wakatime",
+		"ms-vsliveshare.vsliveshare"
+	]
+}

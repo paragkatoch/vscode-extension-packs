@@ -1,0 +1,22 @@
+{
+    "name": "backend-extension-pack",
+    "displayName": "3 Backend pack",
+    "description": "",
+    "version": "0.0.1",
+    "repository": {
+		"type": "git",
+		"url": "git+https://github.com/preIdiot/vscode-Backend-Extension-Pack.git"
+	},
+    "publisher": "PreIdiot",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "mikestead.dotenv",
+        "leizongmin.node-module-intellisense",
+        "xabikos.javascriptsnippets"
+    ]
+}

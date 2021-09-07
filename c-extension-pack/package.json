@@ -1,0 +1,22 @@
+{
+	"name": "c-extension-pack",
+	"displayName": "C++ extension Pack",
+	"publisher": "PreIdiot",
+	"description": "",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/preIdiot/vscode--C-Extesnion-Pack"
+	},
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"ms-vscode.cpptools",
+		"formulahendry.code-runner",
+		"divyanshuagrawal.competitive-programming-helper"
+	]
+}
