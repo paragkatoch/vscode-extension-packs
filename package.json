@@ -1,0 +1,20 @@
+{
+  "name": "vscode-extension-packs",
+  "version": "1.0.0",
+  "description": "extension packs for vscode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "code --install-extension vscode-extension-pack/vscode-extension-pack-0.0.1.vsix && code --install-extension frontend-extension-pack/frontend-extension-pack-0.0.1.vsix && code --install-extension backend-extension-pack/backend-extension-pack-0.0.1.vsix && code --install-extension c-extension-pack/c-extension-pack-0.0.1.vsix &&  echo '\nExtension packs are successfully installed.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preIdiot/vscode-extension-packs.git"
+  },
+  "author": "preIdiot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preIdiot/vscode-extension-packs/issues"
+  },
+  "homepage": "https://github.com/preIdiot/vscode-extension-packs#readme"
+}
